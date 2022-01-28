@@ -10,7 +10,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace BeSimple\SoapCommon;
+namespace ppadevs\SoapCommon;
 
 /**
  * Soap helper class with static functions that are used in the client and

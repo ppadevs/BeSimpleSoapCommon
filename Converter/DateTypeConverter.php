@@ -10,7 +10,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace BeSimple\SoapCommon\Converter;
+namespace ppadevs\SoapCommon\Converter;
 
 /**
  * @author Francis Besset <francis.besset@gmail.com>

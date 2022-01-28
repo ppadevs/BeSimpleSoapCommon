@@ -10,7 +10,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace BeSimple\SoapCommon\Mime;
+namespace ppadevs\SoapCommon\Mime;
 
 /**
  * Simple Multipart-Mime parser.
@@ -20,12 +20,12 @@ namespace BeSimple\SoapCommon\Mime;
 class Parser
 {
     /**
-     * Parse the given Mime-Message and return a \BeSimple\SoapCommon\Mime\MultiPart object.
+     * Parse the given Mime-Message and return a \ppadevs\SoapCommon\Mime\MultiPart object.
      *
      * @param string                $mimeMessage Mime message string
      * @param array(string=>string) $headers     Array of header elements (e.g. coming from http request)
      *
-     * @return \BeSimple\SoapCommon\Mime\MultiPart
+     * @return \ppadevs\SoapCommon\Mime\MultiPart
      */
     public static function parseMimeMessage($mimeMessage, array $headers = array())
     {
@@ -131,7 +131,7 @@ class Parser
      *
      * Based on: https://labs.omniti.com/alexandria/trunk/OmniTI/Mail/Parser.php
      *
-     * @param \BeSimple\SoapCommon\Mime\PartHeader $part        Header part
+     * @param \ppadevs\SoapCommon\Mime\PartHeader $part        Header part
      * @param string                               $headerName  Header name
      * @param string                               $headerValue Header value
      *
@@ -165,7 +165,7 @@ class Parser
     /**
      * Decodes the content of a Mime part.
      *
-     * @param \BeSimple\SoapCommon\Mime\Part $part    Part to add content
+     * @param \ppadevs\SoapCommon\Mime\Part $part    Part to add content
      * @param string                         $content Content to decode
      *
      * @return null

@@ -10,9 +10,9 @@
  * with this source code in the file LICENSE.
  */
 
-namespace BeSimple\SoapCommon;
+namespace ppadevs\SoapCommon;
 
-use BeSimple\SoapCommon\Helper;
+use ppadevs\SoapCommon\Helper;
 
 /**
  * This class loads the given WSDL file and allows to check MIME binding

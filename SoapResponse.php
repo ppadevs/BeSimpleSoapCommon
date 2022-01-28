@@ -11,9 +11,9 @@
  * with this source code in the file LICENSE.
  */
 
-namespace BeSimple\SoapCommon;
+namespace ppadevs\SoapCommon;
 
-use BeSimple\SoapCommon\SoapMessage;
+use ppadevs\SoapCommon\SoapMessage;
 
 /**
  * SOAP response message.

@@ -10,9 +10,9 @@
  * with this source code in the file LICENSE.
  */
 
-namespace BeSimple\SoapCommon\Converter;
+namespace ppadevs\SoapCommon\Converter;
 
-use BeSimple\SoapCommon\SoapKernel;
+use ppadevs\SoapCommon\SoapKernel;
 
 /**
  * Internal type converter interface.
@@ -24,7 +24,7 @@ interface SoapKernelAwareInterface
     /**
      * Set SoapKernel instance.
      *
-     * @param \BeSimple\SoapCommon\SoapKernel $soapKernel SoapKernel instance
+     * @param \ppadevs\SoapCommon\SoapKernel $soapKernel SoapKernel instance
      *
      * @return void
      */

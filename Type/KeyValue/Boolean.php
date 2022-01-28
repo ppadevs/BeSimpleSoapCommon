@@ -1,9 +1,9 @@
 <?php
 
-namespace BeSimple\SoapCommon\Type\KeyValue;
+namespace ppadevs\SoapCommon\Type\KeyValue;
 
-use BeSimple\SoapBundle\ServiceDefinition\Annotation as Soap;
-use BeSimple\SoapCommon\Type\AbstractKeyValue;
+use ppadevs\SoapBundle\ServiceDefinition\Annotation as Soap;
+use ppadevs\SoapCommon\Type\AbstractKeyValue;
 
 class Boolean extends AbstractKeyValue
 {

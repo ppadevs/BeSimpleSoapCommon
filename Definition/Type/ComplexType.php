@@ -10,9 +10,9 @@
  * with this source code in the file LICENSE.
  */
 
-namespace BeSimple\SoapCommon\Definition\Type;
+namespace ppadevs\SoapCommon\Definition\Type;
 
-use BeSimple\SoapCommon\Definition\Message;
+use ppadevs\SoapCommon\Definition\Message;
 
 /**
  * @author Francis Besset <francis.besset@gmail.com>

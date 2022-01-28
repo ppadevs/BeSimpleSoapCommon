@@ -11,7 +11,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace BeSimple\SoapCommon;
+namespace ppadevs\SoapCommon;
 
 /**
  * Base class for SoapRequest and SoapResponse.
@@ -62,7 +62,7 @@ abstract class SoapMessage
     /**
      * Mime attachments.
      *
-     * @var array(\BeSimple\SoapCommon\Mime\Part)
+     * @var array(\ppadevs\SoapCommon\Mime\Part)
      */
     protected $attachments = array();
 
@@ -141,7 +141,7 @@ abstract class SoapMessage
     /**
      * Get attachments.
      *
-     * @return array(\BeSimple\SoapCommon\Mime\Part)
+     * @return array(\ppadevs\SoapCommon\Mime\Part)
      */
     public function getAttachments()
     {
@@ -151,7 +151,7 @@ abstract class SoapMessage
     /**
      * Set SOAP action.
      *
-     * @param array(\BeSimple\SoapCommon\Mime\Part) $attachments Attachment array
+     * @param array(\ppadevs\SoapCommon\Mime\Part) $attachments Attachment array
      */
     public function setAttachments(array $attachments)
     {

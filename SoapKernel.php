@@ -11,13 +11,13 @@
  * with this source code in the file LICENSE.
  */
 
-namespace BeSimple\SoapCommon;
+namespace ppadevs\SoapCommon;
 
-use BeSimple\SoapCommon\Mime\Part as MimePart;
-use BeSimple\SoapCommon\SoapRequest;
-use BeSimple\SoapCommon\SoapResponse;
-use BeSimple\SoapCommon\SoapRequestFilter;
-use BeSimple\SoapCommon\SoapResponseFilter;
+use ppadevs\SoapCommon\Mime\Part as MimePart;
+use ppadevs\SoapCommon\SoapRequest;
+use ppadevs\SoapCommon\SoapResponse;
+use ppadevs\SoapCommon\SoapRequestFilter;
+use ppadevs\SoapCommon\SoapResponseFilter;
 
 /**
  * SoapKernel provides methods to pre- and post-process SoapRequests and SoapResponses using
@@ -31,7 +31,7 @@ class SoapKernel
     /**
     * Mime attachments.
     *
-    * @var array(\BeSimple\SoapCommon\Mime\Part)
+    * @var array(\ppadevs\SoapCommon\Mime\Part)
     */
     protected $attachments = array();
 
@@ -52,7 +52,7 @@ class SoapKernel
     /**
     * Add attachment.
     *
-    * @param \BeSimple\SoapCommon\Mime\Part $attachment New attachment
+    * @param \ppadevs\SoapCommon\Mime\Part $attachment New attachment
     *
     * @return void
     */
@@ -68,7 +68,7 @@ class SoapKernel
      *
      * @param string $contentId Content ID of attachment
      *
-     * @return \BeSimple\SoapCommon\Mime\Part|null
+     * @return \ppadevs\SoapCommon\Mime\Part|null
      */
     public function getAttachment($contentId)
     {

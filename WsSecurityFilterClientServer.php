@@ -10,15 +10,15 @@
  * with this source code in the file LICENSE.
  */
 
-namespace BeSimple\SoapCommon;
+namespace ppadevs\SoapCommon;
 
 use ass\XmlSecurity\DSig as XmlSecurityDSig;
 use ass\XmlSecurity\Enc as XmlSecurityEnc;
 use ass\XmlSecurity\Key as XmlSecurityKey;
 use ass\XmlSecurity\Pem as XmlSecurityPem;
-use BeSimple\SoapCommon\FilterHelper;
-use BeSimple\SoapCommon\Helper;
-use BeSimple\SoapCommon\WsSecurityKey;
+use ppadevs\SoapCommon\FilterHelper;
+use ppadevs\SoapCommon\Helper;
+use ppadevs\SoapCommon\WsSecurityKey;
 
 /**
  * WS-Security common code for client & server.
@@ -99,14 +99,14 @@ abstract class WsSecurityFilterClientServer
     /**
      * Service WsSecurityKey.
      *
-     * @var \BeSimple\SoapCommon\WsSecurityKey
+     * @var \ppadevs\SoapCommon\WsSecurityKey
      */
     protected $serviceSecurityKey;
 
     /**
      * User WsSecurityKey.
      *
-     * @var \BeSimple\SoapCommon\WsSecurityKey
+     * @var \ppadevs\SoapCommon\WsSecurityKey
      */
     protected $userSecurityKey;
 
@@ -143,7 +143,7 @@ abstract class WsSecurityFilterClientServer
     /**
      * Set service security key.
      *
-     * @param \BeSimple\SoapCommon\WsSecurityKey $serviceSecurityKey Service security key
+     * @param \ppadevs\SoapCommon\WsSecurityKey $serviceSecurityKey Service security key
      *
      * @return void
      */
@@ -155,7 +155,7 @@ abstract class WsSecurityFilterClientServer
     /**
      * Set user security key.
      *
-     * @param \BeSimple\SoapCommon\WsSecurityKey $userSecurityKey User security key
+     * @param \ppadevs\SoapCommon\WsSecurityKey $userSecurityKey User security key
      *
      * @return void
      */

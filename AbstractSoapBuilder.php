@@ -10,10 +10,10 @@
  * with this source code in the file LICENSE.
  */
 
-namespace BeSimple\SoapCommon;
+namespace ppadevs\SoapCommon;
 
-use BeSimple\SoapCommon\Converter\TypeConverterCollection;
-use BeSimple\SoapCommon\Converter\TypeConverterInterface;
+use ppadevs\SoapCommon\Converter\TypeConverterCollection;
+use ppadevs\SoapCommon\Converter\TypeConverterInterface;
 
 /**
  * @author Christian Kerl <christian-kerl@web.de>

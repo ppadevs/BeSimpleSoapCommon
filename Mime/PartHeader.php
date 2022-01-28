@@ -10,7 +10,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace BeSimple\SoapCommon\Mime;
+namespace ppadevs\SoapCommon\Mime;
 
 /**
  * Mime part base class.

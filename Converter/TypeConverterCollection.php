@@ -10,7 +10,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace BeSimple\SoapCommon\Converter;
+namespace ppadevs\SoapCommon\Converter;
 
 /**
  * @author Christian Kerl <christian-kerl@web.de>

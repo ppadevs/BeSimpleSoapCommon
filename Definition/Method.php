@@ -10,9 +10,9 @@
  * with this source code in the file LICENSE.
  */
 
-namespace BeSimple\SoapCommon\Definition;
+namespace ppadevs\SoapCommon\Definition;
 
-use BeSimple\SoapCommon\Definition\Type\TypeRepository;
+use ppadevs\SoapCommon\Definition\Type\TypeRepository;
 
 /**
  * @author Francis Besset <francis.besset@gmail.com>

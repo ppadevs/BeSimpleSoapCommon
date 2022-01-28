@@ -10,9 +10,9 @@
  * with this source code in the file LICENSE.
  */
 
-namespace BeSimple\SoapCommon\Mime;
+namespace ppadevs\SoapCommon\Mime;
 
-use BeSimple\SoapCommon\Helper;
+use ppadevs\SoapCommon\Helper;
 
 /**
  * Mime multi part container.
@@ -38,7 +38,7 @@ class MultiPart extends PartHeader
     /**
      * Mime parts.
      *
-     * @var array(\BeSimple\SoapCommon\Mime\Part)
+     * @var array(\ppadevs\SoapCommon\Mime\Part)
      */
     protected $parts = array();
 
@@ -106,7 +106,7 @@ class MultiPart extends PartHeader
     /**
      * Add new part to MIME message.
      *
-     * @param \BeSimple\SoapCommon\Mime\Part $part   Part that is added
+     * @param \ppadevs\SoapCommon\Mime\Part $part   Part that is added
      * @param boolean                        $isMain Is the given part the main part of mime message
      *
      * @return void
@@ -128,7 +128,7 @@ class MultiPart extends PartHeader
      *
      * @param string $contentId Content id of desired part
      *
-     * @return \BeSimple\SoapCommon\Mime\Part|null
+     * @return \ppadevs\SoapCommon\Mime\Part|null
      */
     public function getPart($contentId = null)
     {
@@ -146,7 +146,7 @@ class MultiPart extends PartHeader
      *
      * @param boolean $includeMainPart Should main part be in result set
      *
-     * @return array(\BeSimple\SoapCommon\Mime\Part)
+     * @return array(\ppadevs\SoapCommon\Mime\Part)
      */
     public function getParts($includeMainPart = false)
     {

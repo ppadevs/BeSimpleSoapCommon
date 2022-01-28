@@ -10,7 +10,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace BeSimple\SoapCommon\Util;
+namespace ppadevs\SoapCommon\Util;
 
 /**
  * @author Francis Besset <francis.besset@gmail.com>

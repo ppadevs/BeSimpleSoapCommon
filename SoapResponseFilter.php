@@ -11,9 +11,9 @@
  * with this source code in the file LICENSE.
  */
 
-namespace BeSimple\SoapCommon;
+namespace ppadevs\SoapCommon;
 
-use BeSimple\SoapCommon\SoapResponse;
+use ppadevs\SoapCommon\SoapResponse;
 
 /**
  * SOAP response filter interface.

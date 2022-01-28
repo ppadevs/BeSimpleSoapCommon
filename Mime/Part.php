@@ -10,9 +10,9 @@
  * with this source code in the file LICENSE.
  */
 
-namespace BeSimple\SoapCommon\Mime;
+namespace ppadevs\SoapCommon\Mime;
 
-use BeSimple\SoapCommon\Helper;
+use ppadevs\SoapCommon\Helper;
 
 /**
  * Mime part. Everything must be UTF-8. Default charset for text is UTF-8.

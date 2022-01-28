@@ -10,9 +10,9 @@
  * with this source code in the file LICENSE.
  */
 
-namespace BeSimple\SoapCommon\Definition\Type;
+namespace ppadevs\SoapCommon\Definition\Type;
 
-use BeSimple\SoapCommon\Classmap;
+use ppadevs\SoapCommon\Classmap;
 
 /**
  * @author Christian Kerl <christian-kerl@web.de>

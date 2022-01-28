@@ -1,8 +1,8 @@
 <?php
 
-namespace BeSimple\SoapCommon\Type;
+namespace ppadevs\SoapCommon\Type;
 
-use BeSimple\SoapBundle\ServiceDefinition\Annotation as Soap;
+use ppadevs\SoapBundle\ServiceDefinition\Annotation as Soap;
 
 abstract class AbstractKeyValue
 {
